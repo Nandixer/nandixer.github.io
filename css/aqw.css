@@ -3,10 +3,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
-  padding: 0;
   background-color: #f0f0f0;
   color: #333;
-  padding: 20px;
+  padding: 4px;
 }
 h1 {
   font-size: 36px;
@@ -17,4 +16,36 @@ h1 {
 
 p {
   margin-bottom: 20px;
+}
+
+
+article {
+  width: 60%; /* take up 60% of the screen */
+  margin: 0 auto; /* center the article horizontally */
+ border: 2px solid #555;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  article {
+    width: 100%; /* take up 100% of the screen */
+  }
+}
+
+figure {
+	background-color: gray;
+	display: inline-block;
+	text-align: center;
+	max-width: 80%;
+	margin-left: 10%;
+}
+figure img {
+	width: 100%;
+}
+
+article > p > img, article > img {
+	max-width: 90%;
 }
