@@ -8,12 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Apr 2023 17:11:44 +0300</lastBuildDate><atom:link href="http://nandixer.ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Guide to Ultras</title>
+      <link>http://nandixer.ml/aqw/ultras-guide/</link>
+      <pubDate>Tue, 25 Apr 2023 05:29:48 +0300</pubDate>
+      
+      <guid>http://nandixer.ml/aqw/ultras-guide/</guid>
+      <description>Introduction Meta Classes Lord of Order Archpaladin Legion Revenant Situational Classes StoneCrusher Chaos Avenger Dragon of Time LightCaster Paladin Chronomancer Quantum Chronomancer Legion DoomKnight Potions Enhancements Techniques Taunt Looping Heal Timing Communication Ultras Ezrajal Warden Engineer Tyndarius Drakath Dage Nulgath Drago Darkon Malgor </description>
+    </item>
+    
+    <item>
       <title>Archmage HP Tuner</title>
       <link>http://nandixer.ml/aqw/am-hp-tuner/</link>
       <pubDate>Mon, 24 Apr 2023 18:31:46 +0300</pubDate>
       
       <guid>http://nandixer.ml/aqw/am-hp-tuner/</guid>
-      <description>This is an AQW template!</description>
+      <description>The Tool Use the battle analyzer and farm the monsters long enough for your Damage Taken and Healing Done values to stabilize. Or use a preset value from the table below (todo). Make sure you measure with the same buffs as how you plan to use Archmage long-term. Damage Taken: HoT Value: of which Elyisum: Amount: </description>
     </item>
     
     <item>
