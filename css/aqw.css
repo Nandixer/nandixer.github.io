@@ -40,6 +40,10 @@ article {
   body{
 	  padding: 0px;
   }
+  article > *{
+	  padding-left: 8px;
+	  padding-right: 8px;
+  }
 }
 
 figure {
@@ -53,6 +57,6 @@ figure img {
 	width: 100%;
 }
 
-article > p > img, article > img {
+article > p > img, article > img, details img {
 	max-width: 90%;
 }

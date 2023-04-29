@@ -21,7 +21,7 @@
 	</div>
 	<div>
 		<label for="healing-done">HoT Value:</label>
-		<input type="number" id="healing-done" name="healing-done" value="559">
+		<input type="number" id="healing-done" name="healing-done" value="600">
 		<label for="elysium-healing">of which Elyisum:</label>
 		<input type="checkbox" id="elysium-healing" name="elysium-healing">
 		<label for="elysium-healing-amount">Amount:</label>
@@ -73,7 +73,7 @@
 
 			// Calculate mana using the formula: H * X + E = D
 			const mana = (damageTaken - elysiumHealing) / healingDone;
-			const roundedMana = Math.round(100 * mana);
+			const roundedMana = Math.round(100 * mana / 5) * 5;
 
 
 			const additionalMana1 = roundedMana + 15;
