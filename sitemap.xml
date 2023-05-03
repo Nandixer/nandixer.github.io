@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://nandixer.ml/tags/</loc>
+    <lastmod>2023-05-03T14:07:56+03:00</lastmod>
+  </url><url>
+    <loc>http://nandixer.ml/tags/ultra/</loc>
+    <lastmod>2023-05-03T14:07:56+03:00</lastmod>
+  </url><url>
+    <loc>http://nandixer.ml/aqw/tyndarius/</loc>
+    <lastmod>2023-05-03T14:07:56+03:00</lastmod>
+  </url><url>
     <loc>http://nandixer.ml/aqw/malgor/</loc>
     <lastmod>2023-04-29T17:28:30+03:00</lastmod>
   </url><url>
@@ -21,7 +30,5 @@
     <lastmod>2023-04-23T17:11:44+03:00</lastmod>
   </url><url>
     <loc>http://nandixer.ml/categories/</loc>
-  </url><url>
-    <loc>http://nandixer.ml/tags/</loc>
   </url>
 </urlset>
