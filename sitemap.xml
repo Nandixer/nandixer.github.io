@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://nandixer.ml/stories/anthea/</loc>
+    <lastmod>2023-05-04T15:27:23+03:00</lastmod>
+  </url><url>
     <loc>http://nandixer.ml/tags/</loc>
     <lastmod>2023-05-03T14:07:56+03:00</lastmod>
   </url><url>
@@ -24,6 +27,9 @@
     <lastmod>2023-04-23T17:45:05+03:00</lastmod>
   </url><url>
     <loc>http://nandixer.ml/aqw/</loc>
+    <lastmod>2023-04-23T17:22:34+03:00</lastmod>
+  </url><url>
+    <loc>http://nandixer.ml/stories/</loc>
     <lastmod>2023-04-23T17:22:34+03:00</lastmod>
   </url><url>
     <loc>http://nandixer.ml/</loc>

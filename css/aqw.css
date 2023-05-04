@@ -59,4 +59,8 @@ figure img {
 
 article > p > img, article > img, details img {
 	max-width: 90%;
+	display: block; /* center the image */
+	margin: 0 auto; /* center the image */
+	border-radius: 4px; /* add corner radius */
+
 }
