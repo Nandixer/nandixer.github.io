@@ -18,6 +18,10 @@ p {
   margin-bottom: 20px;
 }
 
+time{
+	font-family: mono;
+}
+
 
 article {
   width: 60%; /* take up 60% of the screen */
