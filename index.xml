@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nandixer</title>
+    <title>Aqw on Nandixer</title>
     <link>http://nandixer.ml/</link>
-    <description>Recent content on Nandixer</description>
+    <description>Recent content in Aqw on Nandixer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Apr 2023 17:11:44 +0300</lastBuildDate><atom:link href="http://nandixer.ml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Apr 2023 17:22:34 +0300</lastBuildDate><atom:link href="http://nandixer.ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ultra Dage Guide</title>
-      <link>http://nandixer.ml/aqw/dage/</link>
+      <link>http://nandixer.ml/dage/</link>
       <pubDate>Sun, 11 Jun 2023 17:31:15 +0300</pubDate>
       
-      <guid>http://nandixer.ml/aqw/dage/</guid>
+      <guid>http://nandixer.ml/dage/</guid>
       <description>Introduction Dage the Dark Lord is the head of the Undead Legion and one of the more unconventional Ultra fights in the game. He can be found at /join ultradage.
 His Insignias can be used:
 to act as a shortcut to unlock Legion Revenant. to get 51% boost weapons such as Necrotic Blade of the Underworld for the 50% to Undead boost of Empowered Undead Champion and for items with 35% damage boost to all monsters on top of a 25% Gold/XP/REP/CP boost.</description>
@@ -20,10 +20,10 @@ to act as a shortcut to unlock Legion Revenant. to get 51% boost weapons such as
     
     <item>
       <title>Sarah the Nerfkitten Guide</title>
-      <link>http://nandixer.ml/aqw/sarah/</link>
+      <link>http://nandixer.ml/sarah/</link>
       <pubDate>Wed, 10 May 2023 00:03:48 +0300</pubDate>
       
-      <guid>http://nandixer.ml/aqw/sarah/</guid>
+      <guid>http://nandixer.ml/sarah/</guid>
       <description>Sarah the Nerfkitten is the newest Event Boss created by Yoshino.
 To get there, /join yoshino.
 Notable abilities:
@@ -45,20 +45,20 @@ Anthea stared down her own lap, ignoring the waiter as he placed her birthday ca
     
     <item>
       <title>Ultra Tyndarius Guide</title>
-      <link>http://nandixer.ml/aqw/tyndarius/</link>
+      <link>http://nandixer.ml/tyndarius/</link>
       <pubDate>Wed, 03 May 2023 14:07:56 +0300</pubDate>
       
-      <guid>http://nandixer.ml/aqw/tyndarius/</guid>
+      <guid>http://nandixer.ml/tyndarius/</guid>
       <description>Introduction Tyndarius, the Avatar of Fire at /join ultratyndarius is a good entry-level Ultra and the first one I&amp;rsquo;d recommend clearing after the three in TimeInn. His Insignias offer Infernal Flame Pyromancer, an armor with a 25% boost to all rewards and 35% to damage. Infernal Flame Khopesh, also from Tyndarius, offerst the best damage boost to Elementals. Clearing Tyndarius also unlocks further endgame content.
 Worth mentioning that Tyndarius is a daily Ultra, not a weekly one.</description>
     </item>
     
     <item>
       <title>Ultra Malgor Guide</title>
-      <link>http://nandixer.ml/aqw/malgor/</link>
+      <link>http://nandixer.ml/malgor/</link>
       <pubDate>Sat, 29 Apr 2023 17:28:30 +0300</pubDate>
       
-      <guid>http://nandixer.ml/aqw/malgor/</guid>
+      <guid>http://nandixer.ml/malgor/</guid>
       <description>Introduction Malgor, The First Speaker at /join ultraspeaker is currently the most complicated, but also most rewarding Ultra to beat.
 His Insignias offer Radiant Goddess of War, the best-in-slot boost armor for all situations. Most players tend to get Dauntless first though, because of how overpowered that enhancement is on some classes.
 Spoiler: Main Story, Malgor Questline Malgor is called a Speaker, because he speaks. A Speaker is a more evolved form of a Mumbler, one of these:</description>
@@ -66,28 +66,28 @@ Spoiler: Main Story, Malgor Questline Malgor is called a Speaker, because he spe
     
     <item>
       <title>Guide to Ultras</title>
-      <link>http://nandixer.ml/aqw/ultras-guide/</link>
+      <link>http://nandixer.ml/ultras-guide/</link>
       <pubDate>Tue, 25 Apr 2023 05:29:48 +0300</pubDate>
       
-      <guid>http://nandixer.ml/aqw/ultras-guide/</guid>
+      <guid>http://nandixer.ml/ultras-guide/</guid>
       <description>Introduction Meta Classes Lord of Order Archpaladin Legion Revenant Situational Classes StoneCrusher Chaos Avenger Dragon of Time LightCaster Paladin Chronomancer Quantum Chronomancer Legion DoomKnight Potions Enhancements Techniques Taunt Looping Heal Timing Communication Ultras Ezrajal Warden Engineer Tyndarius Drakath Dage Nulgath Drago Darkon Malgor </description>
     </item>
     
     <item>
       <title>Archmage HP Tuner</title>
-      <link>http://nandixer.ml/aqw/am-hp-tuner/</link>
+      <link>http://nandixer.ml/am-hp-tuner/</link>
       <pubDate>Mon, 24 Apr 2023 18:31:46 +0300</pubDate>
       
-      <guid>http://nandixer.ml/aqw/am-hp-tuner/</guid>
+      <guid>http://nandixer.ml/am-hp-tuner/</guid>
       <description>The Tool Use the battle analyzer and farm the monsters long enough for your Damage Taken and Healing Done values to stabilize. Or use a preset value from the table below (todo). Make sure you measure with the same buffs as how you plan to use Archmage long-term. Damage Taken: HoT Value: of which Elyisum: Amount: </description>
     </item>
     
     <item>
       <title>Boost Items</title>
-      <link>http://nandixer.ml/aqw/boost-items/</link>
+      <link>http://nandixer.ml/boost-items/</link>
       <pubDate>Sun, 23 Apr 2023 17:45:05 +0300</pubDate>
       
-      <guid>http://nandixer.ml/aqw/boost-items/</guid>
+      <guid>http://nandixer.ml/boost-items/</guid>
       <description>Introduction This article will explain how boosting items work in Adventure Quest Worlds. In particular, we will look into the interaction between the following boosts:
 XP/CP/Gold/REP boosts Damage to All like NSoD Damage to Races like Polly Roger The All Out stat To find your current boosts, look for the following icons on your stat panel:
 I will be linking items as examples, but many of them have alternatives and variants.</description>

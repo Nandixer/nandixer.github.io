@@ -1,0 +1,107 @@
+<head>
+<link rel="stylesheet" type="text/css" href="/css/aqw.css">
+<link rel="icon" href="/img/icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>
+	AQW Archmage HP Tuner
+</title>
+
+</head>
+<body>
+	<p style="text-align: center; font-size: 72px; font-family: Arial, sans-serif; font-weight: bold;">Archmage HP Tuner</p>
+	<p style="text-align: center;"><a href="../index.html">Back</a></p>
+	<article>
+		<h1 id="the-tool">The Tool</h1>
+<ol>
+<li>Use the battle analyzer and farm the monsters long enough for your Damage Taken and Healing Done values to stabilize.
+<ol>
+<li>Or use a preset value from the table below (todo).</li>
+<li>Make sure you measure with the same buffs as how you plan to use Archmage long-term.</li>
+</ol>
+</li>
+</ol>
+<form>
+	<div>
+		<label for="damage-taken">Damage Taken:</label>
+		<input type="number" id="damage-taken" name="damage-taken" value="150">
+	</div>
+	<div>
+		<label for="healing-done">HoT Value:</label>
+		<input type="number" id="healing-done" name="healing-done" value="600">
+		<label for="elysium-healing">of which Elyisum:</label>
+		<input type="checkbox" id="elysium-healing" name="elysium-healing">
+		<label for="elysium-healing-amount">Amount:</label>
+		<input type="number" id="elysium-healing-amount" name="elysium-healing-amount" value="20" disabled>
+	</div>
+</form>
+<p id="mana-output"></p>
+<p id="additionalOutput3"></p>
+<p id="additionalOutput5"></p>
+<p id="additionalOutput1"></p>
+<p id="additionalOutput4"></p>
+<p id="additionalOutput2"></p>
+<script>
+		// Get the input elements and output element
+		const damageTakenInput = document.getElementById("damage-taken");
+		const healingDoneInput = document.getElementById("healing-done");
+		const elysiumHealingInput = document.getElementById("elysium-healing");
+		const elysiumHealingAmountInput = document.getElementById("elysium-healing-amount");
+		const manaOutput = document.getElementById("mana-output");
+
+		const additionalOutput1 = document.getElementById("additionalOutput1");
+		const additionalOutput2 = document.getElementById("additionalOutput2");
+		const additionalOutput3 = document.getElementById("additionalOutput3");
+		const additionalOutput4 = document.getElementById("additionalOutput4");
+		const additionalOutput5 = document.getElementById("additionalOutput5");
+
+		// Add event listeners for input and checkbox changes
+		damageTakenInput.addEventListener("input", calculateMana);
+		healingDoneInput.addEventListener("input", calculateMana);
+		elysiumHealingInput.addEventListener("change", toggleElysiumAmount);
+		elysiumHealingAmountInput.addEventListener("input", calculateMana);
+
+		// Function to toggle Elysium Amount input on or off
+		function toggleElysiumAmount() {
+			if (elysiumHealingInput.checked) {
+				elysiumHealingAmountInput.disabled = false;
+			} else {
+				elysiumHealingAmountInput.disabled = true;
+				elysiumHealingAmountInput.value = "0"; // reset value to 0 when disabled
+			}
+			calculateMana();
+		}
+
+		// Function to calculate and display the mana output
+		function calculateMana() {
+			const damageTaken = parseInt(damageTakenInput.value);
+			const healingDone = parseInt(healingDoneInput.value);
+			const elysiumHealing = elysiumHealingInput.checked ? parseInt(elysiumHealingAmountInput.value) : 0;
+
+			// Calculate mana using the formula: H * X + E = D
+			const mana = (damageTaken - elysiumHealing) / healingDone;
+			const roundedMana = Math.round(100 * mana / 5) * 5;
+
+
+			const additionalMana1 = roundedMana + 15;
+			const additionalMana2 = roundedMana - 20;
+			const additionalMana3 = roundedMana + 30;
+			const additionalMana4 = roundedMana + 10;
+			const additionalMana5 = roundedMana + 20;
+
+			const text1 = `Have ${additionalMana1} Mana, then 5-2-5`;
+			const text2 = `Have ${additionalMana2} Mana, then 5-3-5`;
+			const text3 = `Have ${additionalMana3} Mana, then 5-4-5`;
+			const text4 = `Have ${additionalMana4} Mana, then 2-5`;
+			const text5 = `Have ${additionalMana5} Mana, then 4-5`;
+
+			// Display the mana output
+			manaOutput.textContent = `You should have ${roundedMana} mana.`;
+			additionalOutput1.textContent = text1
+			additionalOutput2.textContent = text2
+			additionalOutput3.textContent = text3
+			additionalOutput4.textContent = text4
+			additionalOutput5.textContent = text5
+		}
+</script>
+</article>
+</body>

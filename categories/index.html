@@ -1,0 +1,34 @@
+<head>
+<link rel="stylesheet" type="text/css" href="/css/aqw.css">
+<link rel="icon" href="/img/icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+</head>
+<body>
+	<article id="page-list">
+		Filter for:
+ 
+	  
+		<div class="tagbutton" onclick="filterByTag('ultra')">
+			  <a href="javascript:void()" title="All pages with tag ultra">ultra</a>
+		<sup>2</sup>
+          </div>
+	  
+	
+	</article>
+</body>
+	</article>
+</body>
+
+<script>
+function filterByTag(tag) {
+  var pages = document.querySelectorAll('#page-list > h3');
+  for (var i = 0; i < pages.length; i++) {
+    if (pages[i].querySelectorAll('a[rel~='+tag+']').length > 0) {
+      pages[i].style.display = '';
+    } else {
+      pages[i].style.display = 'none';
+    }
+  }
+}
+</script>
