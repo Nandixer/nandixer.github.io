@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>video on Nandixer</title>
+    <link>http://nandixer.ml/tags/video/</link>
+    <description>Recent content in video on Nandixer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jul 2023 02:44:09 +0300</lastBuildDate><atom:link href="http://nandixer.ml/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archmage with Acheron and Vainglory</title>
+      <link>http://nandixer.ml/archmage-vainglory/</link>
+      <pubDate>Wed, 12 Jul 2023 02:44:09 +0300</pubDate>
+      
+      <guid>http://nandixer.ml/archmage-vainglory/</guid>
+      <description>Introduction Alright, this guide will be pointlessly complicated AND pointlessly specific.
+Are you in the 1% of players that care about a difference between 22k and 24k DPS when farming on ArchMage?
+And if you are, do you happen to be in the other 1% to have wasted $100 on Acheron?
+Mechanics Acheron Acheron, when used, applies a DoT to the user. This stacks up to 30x for about ~1500, depending on the active buffs.</description>
+    </item>
+    
+    <item>
+      <title>Ultra Malgor Guide</title>
+      <link>http://nandixer.ml/malgor/</link>
+      <pubDate>Sat, 29 Apr 2023 17:28:30 +0300</pubDate>
+      
+      <guid>http://nandixer.ml/malgor/</guid>
+      <description>Introduction Malgor, The First Speaker at /join ultraspeaker is currently the most complicated, but also most rewarding Ultra to beat.
+His Insignias offer Radiant Goddess of War, the best-in-slot boost armor for all situations. Most players tend to get Dauntless first though, because of how overpowered that enhancement is on some classes.
+Spoiler: Main Story, Malgor Questline Malgor is called a Speaker, because he speaks. A Speaker is a more evolved form of a Mumbler, one of these:</description>
+    </item>
+    
+  </channel>
+</rss>
